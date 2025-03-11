@@ -1,0 +1,15 @@
+h1 #point{
+    color:#53b397;
+}
+h1 {
+    color:white;
+}
+body{
+    background-color: #041821 ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;    
+}
