@@ -1,9 +1,12 @@
-h1 #point{
-    color:#53b397;
+body{
+    background-color: #041821 ;
 }
 h1 {
     color:white;
     font-size: 1.2em;
+}
+#point{
+    color:#53b397;
 }
 #icone{
     display: flex;
@@ -12,25 +15,31 @@ h1 {
     top: 20px;
     right: 20px;
 }
-
-body{
-    background-color: #041821 ;
-}
-
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid #455761;    
 }
-a {
-    color:white
-}
 #Hello{
     font-size: 2.5em;
     font-weight: bold;
-    margin-left: 10%;
+    margin-left: 100px;
+    color: white;
+}
+#titre{
+    font-size: 2.5em;
+    margin-left: 100px;
+    color: white;
 }
 #créative{
     color: #1fd69e;
+    font-size: 2.5em;
+    margin-left: 100px;
+}
+#text{
+    color:#829093 !important;
+    margin-left: 100px;
+    max-width: 570px;
+    word-wrap: break-word;
 }
