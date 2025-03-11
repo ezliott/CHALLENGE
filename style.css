@@ -26,19 +26,28 @@ header{
     font-weight: bold;
     margin-left: 100px;
     color: white;
+    font-family: "Playfair Display", serif;
+    font: weight 100px;;
+    font-style: normal;
 }
 #titre{
     font-size: 2.5em;
     margin-left: 100px;
     color: white;
+    font-family: "Playfair Display", serif;
+    font: weight 100px;;
+    font-style: normal;
 }
 #créative{
     color: #1fd69e;
     font-size: 2.5em;
     margin-left: 100px;
+    font-family: "Playfair Display", serif;
+    font: weight 100px;;
+    font-style: normal;
 }
 #text{
-    color:#829093 !important;
+    color:#829093;
     margin-left: 100px;
     max-width: 570px;
     word-wrap: break-word;
