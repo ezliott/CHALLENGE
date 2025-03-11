@@ -3,7 +3,16 @@ h1 #point{
 }
 h1 {
     color:white;
+    font-size: 1.2em;
 }
+#icone{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
 body{
     background-color: #041821 ;
 }
@@ -11,5 +20,17 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid white;    
+    align-items: center;
+    border-bottom: 2px solid #455761;    
+}
+a {
+    color:white
+}
+#Hello{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-left: 10%;
+}
+#créative{
+    color: #1fd69e;
 }
