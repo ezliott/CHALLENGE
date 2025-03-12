@@ -8,12 +8,10 @@ h1 {
 #point{
     color:#53b397;
 }
-#icone{
-    display: flex;
-    gap: 15px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+#icone span{
+    margin: 5px;
+    color: #ffffff;
+    max-width: 100px;
 }
 header{
     display: flex;
@@ -79,11 +77,15 @@ header{
 #image{
     display: flex;
     flex-wrap: wrap;
-    margin: 100px;
+    margin: 120px;
     gap: 10px;
 }
-
+footer{
+    color:#697b7f;
+    text-align: center;
+}
 @media all and (max-width:720px){
-    
+    header{
     flex-direction: column;
+}
 }
