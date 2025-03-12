@@ -81,6 +81,10 @@ header{
     gap: 10px;
     max-width: 80%;
 }
+#image img{
+    width:100%;
+    height: auto;
+}
 
 footer{
     color:#697b7f;
@@ -89,7 +93,7 @@ footer{
 
 /*-----------------MEDIA QUIERIS--------------------------*/
 
-@media all and (max-width:768px){
+@media all and (max-width:1024px){
     #image  {
         grid-template-columns: repeat(5, 1fr);
         max-width: 80%;
@@ -105,7 +109,7 @@ footer{
 @media all and (max-width:426px){
     header{
         flex-direction: column;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
     }
     #Hello{
         margin: 5px;
