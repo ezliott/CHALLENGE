@@ -105,7 +105,7 @@ footer{
 @media all and (max-width:426px){
     header{
         flex-direction: column;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
     #Hello{
         margin: 5px;
@@ -114,7 +114,13 @@ footer{
         margin: 5px;
     }
     #créative{
-        margin:5px
+        margin:5px;
+    }
+    #text{
+        margin:5px;
+    }
+    #nature{
+        font-size: 4%;
     }
     #image  {
         grid-template-columns: repeat(3, 1fr);
