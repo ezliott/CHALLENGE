@@ -26,24 +26,24 @@ header{
     font-weight: bold;
     margin-left: 100px;
     color: white;
-    font-family: "Playfair Display", serif;
-    font: weight 100px;;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
     font-style: normal;
 }
 #titre{
     font-size: 2.5em;
     margin-left: 100px;
     color: white;
-    font-family: "Playfair Display", serif;
-    font: weight 100px;;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
     font-style: normal;
 }
 #créative{
     color: #1fd69e;
     font-size: 2.5em;
     margin-left: 100px;
-    font-family: "Playfair Display", serif;
-    font: weight 100px;;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
     font-style: normal;
 }
 #text{
@@ -51,4 +51,39 @@ header{
     margin-left: 100px;
     max-width: 570px;
     word-wrap: break-word;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+}
+#nature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    gap: 20px;
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    
+}
+#portrait{
+    border: 2px solid #2BE4A2;
+    color:white;
+    background-color: #1fd69e;
+    word-spacing: 10px;
+    padding: 5px;
+}
+#image{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    gap: 10px;
+}
+
+@media all and (max-width:720px){
+    
+    flex-direction: column;
 }
