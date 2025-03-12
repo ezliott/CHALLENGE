@@ -75,17 +75,26 @@ header{
     padding: 5px;
 }
 #image{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 120px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
     gap: 10px;
+    width: 80%;
 }
+
 footer{
     color:#697b7f;
     text-align: center;
 }
-@media all and (max-width:720px){
+
+/*-----------------MEDIA QUIERIS--------------------------*/
+
+@media all and (max-width:770px){
     header{
     flex-direction: column;
-}
+}   
+    #image{
+        grid-template-columns: repeat(5, 1fr);
+        max-width: 80%;
+    }
 }
