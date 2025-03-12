@@ -17,7 +17,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #455761;    
+    border-bottom: 2px solid #455761;  
 }
 #Hello{
     font-size: 2.5em;
@@ -79,7 +79,7 @@ header{
     grid-template-columns: repeat(4, 1fr);
     margin: auto;
     gap: 10px;
-    width: 80%;
+    max-width: 80%;
 }
 
 footer{
@@ -89,12 +89,44 @@ footer{
 
 /*-----------------MEDIA QUIERIS--------------------------*/
 
-@media all and (max-width:770px){
-    header{
-    flex-direction: column;
-}   
-    #image{
+@media all and (max-width:768px){
+    #image  {
         grid-template-columns: repeat(5, 1fr);
         max-width: 80%;
+        padding-top: 50px;
+        gap: 5px;
+    }
+    #image img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media all and (max-width:426px){
+    header{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    #Hello{
+        margin: 5px;
+    }
+    #titre{
+        margin: 5px;
+    }
+    #créative{
+        margin:5px
+    }
+    #image  {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 90%;
+        padding-top: 50px;
+        gap: 5px;   
+    }
+    img:nth-child(n + 10) {
+        display: none;
+        }
+    #image img{
+        width: 100%;
+        height: auto;
     }
 }
